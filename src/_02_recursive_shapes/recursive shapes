@@ -2,7 +2,7 @@ Copy and paste the code below into a new processing sketch
 Complete the recursiveRect, recursiveEllipse, and the recursiveTringle
 method. Each of the methods should use recursion to draw the shape 
 on top of itself smaller and smaller so that it looks like the sample
-int recursive_shapes.png
+in recursive_shapes.png
 
 void setup(){
   size(500, 500);
