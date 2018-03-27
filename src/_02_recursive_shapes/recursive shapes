@@ -14,9 +14,12 @@ void setup(){
 
 void draw(){
   fill(#0000FF);
-  recursiveRect(0, 0, 100, 100, 2);
+  recursiveRect(300, 25, 200, 200, 5);
   fill(#FF0000);
-  recursiveEllipse(300, 150, 300, 200, 15);
+  recursiveEllipse(200, 400, 300, 200, 16);
+  
+  //BONUS
+  recursiveTriangle(0, 0, 200, 0, 100, 173, 6);
 }
 
 void recursiveRect(int x, int y, int w, int h, int scale){
@@ -25,4 +28,9 @@ void recursiveRect(int x, int y, int w, int h, int scale){
 
 void recursiveEllipse(int x, int y, int w, int h, int scale){
   //me too
+}
+
+//BONUS
+void recursiveTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int scale){
+  //Complete me if you dare!
 }
