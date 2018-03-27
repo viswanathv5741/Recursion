@@ -1,8 +1,12 @@
+/*
 Copy and paste the code below into a new processing sketch
-Complete the recursiveRect, recursiveEllipse, and the recursiveTringle
-method. Each of the methods should use recursion to draw the shape 
+Complete the recursiveRect and recursiveEllipse methods. Each of the 
+methods should use recursion to draw the shape 
 on top of itself smaller and smaller so that it looks like the sample
 in recursive_shapes.png
+
+IF YOU ARE LOOKING FOR AN EXTRA CHALLENGE, MAKE A RECURSIVE TRIANGLE METHOD
+*/
 
 void setup(){
   size(500, 500);
@@ -13,8 +17,6 @@ void draw(){
   recursiveRect(0, 0, 100, 100, 2);
   fill(#FF0000);
   recursiveEllipse(300, 150, 300, 200, 15);
-  fill(#00FF00);
-  recursiveTriangle(0, 300, 100, 400, 300, 300, 5); 
 }
 
 void recursiveRect(int x, int y, int w, int h, int scale){
@@ -23,8 +25,4 @@ void recursiveRect(int x, int y, int w, int h, int scale){
 
 void recursiveEllipse(int x, int y, int w, int h, int scale){
   //me too
-}
-
-void recursiveTriangle(int x1, int y1, int x2, int y2,  int x3, int y3, int scale){
-  //me three
 }
